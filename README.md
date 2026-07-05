@@ -17,6 +17,7 @@ Anyone facing Windows corruption, lag, stutters, GPU issues, or failed installat
 Paste this into CMD or PowerShell:
 powershell -command "Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/7773984986/ultimate-windows-cleaner/refs/heads/main/ultimate_windows_cleaner_v2.bat' -OutFile $env:TEMP\ultimate_cleaner.bat; Start-Process $env:TEMP\ultimate_cleaner.bat -Verb RunAs"
 
+
 This will:
 
 Download the latest version of the cleaner
