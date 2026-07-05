@@ -1,3 +1,14 @@
+██████╗ ██╗   ██╗███╗   ███╗██╗████████╗██╗     ███████╗
+██╔══██╗██║   ██║████╗ ████║██║╚══██╔══╝██║     ██╔════╝
+██████╔╝██║   ██║██╔████╔██║██║   ██║   ██║     █████╗  
+██╔══██╗██║   ██║██║╚██╔╝██║██║   ██║   ██║     ██╔══╝  
+██████╔╝╚██████╔╝██║ ╚═╝ ██║██║   ██║   ███████╗███████╗
+╚═════╝  ╚═════╝ ╚═╝     ╚═╝╚═╝   ╚═╝   ╚══════╝╚══════╝
+![Windows](https://img.shields.io/badge/Windows-10%20%7C%2011-blue?logo=windows)
+![PowerShell](https://img.shields.io/badge/Runs%20On-PowerShell-5391FE?logo=powershell)
+![Batch](https://img.shields.io/badge/Script-.BAT-yellow)
+![License](https://img.shields.io/badge/License-MIT-green)
+![Status](https://img.shields.io/badge/Version-v2.0-orange)
 Ultimate Windows Cleaner v2
 Full system repair • GPU optimization • DirectX fix • Installation cleanup • Performance stabilization
 
@@ -14,6 +25,7 @@ Power users
 Anyone facing Windows corruption, lag, stutters, GPU issues, or failed installations
 
 ⚡ One‑Line Activation Command
+[![Run Ultimate Cleaner](https://img.shields.io/badge/Run-Ultimate%20Cleaner-blue?style=for-the-badge)](#)
 Paste this into CMD or PowerShell:
 powershell -command "Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/7773984986/ultimate-windows-cleaner/refs/heads/main/ultimate_windows_cleaner_v2.bat' -OutFile $env:TEMP\ultimate_cleaner.bat; Start-Process $env:TEMP\ultimate_cleaner.bat -Verb RunAs"
 
@@ -132,6 +144,30 @@ EXE installer
 GUI version
 
 Scheduled maintenance mode
+## 📦 Releases
+Official releases of Ultimate Windows Cleaner v2:
+
+- **v2.0** — Initial public release  
+- **v2.1** — Coming soon (silent mode + auto-update)
+## 📝 Changelog
+
+### v2.0
+- Initial public release
+- Added full system repair
+- Added GPU optimization
+- Added DirectX fix
+- Added installation cleanup
+- Added network repair
+- Added AppX re-registration
+## 🔢 Versioning
+Ultimate Windows Cleaner follows semantic versioning:
+
+- **MAJOR** — Big changes or new modules  
+- **MINOR** — New features or improvements  
+- **PATCH** — Small fixes or optimizations  
+
+Example:  
+`v2.1.3` → Major 2, Minor 1, Patch 3
 
 📜 License
 MIT License — free for personal and commercial use.
